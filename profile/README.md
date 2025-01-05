@@ -2,20 +2,54 @@
 
 A comprehensive guide for Cookie Clicker cheats and commands. This repository contains various methods to enhance your Cookie Clicker gameplay experience.
 
-## 📋 Table of Contents
+## Table of Contents
 - [Basic Console Commands](#basic-console-commands)
 - [Cookie & Production Cheats](#cookie--production-cheats)
 - [Achievement & Upgrade Cheats](#achievement--upgrade-cheats)
 - [Building Related Cheats](#building-related-cheats)
-- [Golden Cookie Cheats](#golden-cookie-cheats) 
+- [Golden Cookie Cheats](#golden-cookie-cheats)
 - [Grandmapocalypse Cheats](#grandmapocalypse-cheats)
-- [Debug & Special Cheats](#debug--special-cheats)
+- [Special Effects & Minigame Cheats](#special-effects--minigame-cheats)
 - [Sugar Lump Cheats](#sugar-lump-cheats)
 - [Game Mechanics Cheats](#game-mechanics-cheats)
-- [Visual & UI Cheats](#visual--ui-cheats)
-- [Advanced Features](#advanced-features)
+- [Visual & UI Enhancements](#visual--ui-enhancements)
+- [Advanced Analytics & Performance](#advanced-analytics--performance-systems)
+- [Advanced Automation Systems](#advanced-automation-systems)
+- [Save Manipulation & Data Management](#save-manipulation--data-management)
+- [Hidden Achievements & Special Unlocks](#hidden-achievements--special-unlocks)
+- [Statistics & Calculations](#statistics--calculations)
+- [Warning & Important Notes](#warning--important-notes)
+- [Tips for Safe Cheating](#tips-for-safe-cheating)
 
-## 🖥️ Basic Console Commands
+## Basic Console Commands
+
+### Opening the Console
+- **Chrome**: Press `Ctrl + Shift + J` (Windows) or `Cmd + Option + J` (Mac)
+- **Firefox**: Press `Ctrl + Shift + K` (Windows) or `Cmd + Option + K` (Mac)
+- **Edge**: Press `Ctrl + Shift + J`
+- **Safari**: Press `Cmd + Option + C`
+- **Opera GX**: Press `Ctrl + Shift + C` or right-click and select 'Inspect Element'
+
+### Basic Game Controls
+```javascript
+// Save game
+Game.WriteSave();
+
+// Load save
+Game.LoadSave();
+
+// Hard reset game
+Game.HardReset();
+
+// Soft reset (Ascend)
+Game.Ascend();
+
+// Toggle particles
+Game.particles = 0/1;
+
+// Change fps
+Game.fps = 30; // Default is 30
+```
 
 To open the console in your browser:
 - **Chrome**: Press `Ctrl + Shift + J` (Windows) or `Cmd + Option + J` (Mac)
