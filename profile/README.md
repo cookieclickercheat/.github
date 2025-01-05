@@ -3,23 +3,24 @@
 A comprehensive guide for Cookie Clicker cheats and commands. This repository contains various methods to enhance your Cookie Clicker gameplay experience.
 
 ## Table of Contents
-- [Basic Console Commands](#basic-console-commands)
-- [Cookie & Production Cheats](#cookie--production-cheats)
-- [Achievement & Upgrade Cheats](#achievement--upgrade-cheats)
-- [Building Related Cheats](#building-related-cheats)
-- [Golden Cookie Cheats](#golden-cookie-cheats)
-- [Grandmapocalypse Cheats](#grandmapocalypse-cheats)
-- [Sugar Lump Cheats](#sugar-lump-cheats)
-- [Seasonal & Special Events](#seasonal--special-events)
-- [Game Mechanics Cheats](#game-mechanics-cheats)
-- [Visual & UI Enhancements](#visual--ui-enhancements)
-- [Minigames & Special Features](#minigames--special-features)
-- [Save Manipulation & Data Management](#save-manipulation--data-management)
-- [Debug & Special Cheats](#debug--special-cheats)
-- [Warning & Important Notes](#warning--important-notes)
-- [Tips for Safe Cheating](#tips-for-safe-cheating)
-- [Useful Links](#useful-links)
+- [Basic Console Commands](#-basic-console-commands)
+- [Cookie & Production Cheats](#-cookie--production-cheats)
+- [Achievement & Upgrade Cheats](#-achievement--upgrade-cheats)
+- [Building Related Cheats](#-building-related-cheats)
+- [Golden Cookie Cheats](#-golden-cookie-cheats)
+- [Grandmapocalypse Cheats](#-grandmapocalypse-cheats)
+- [Sugar Lump Cheats](#-sugar-lump-cheats)
+- [Seasonal & Special Events](#-seasonal--special-events)
+- [Game Mechanics Cheats](#-game-mechanics-cheats)
+- [Visual & UI Enhancements](#-visual--ui-enhancements)
+- [Minigames & Special Features](#-minigames--special-features)
+- [Save Manipulation & Data Management](#-save-manipulation--data-management)
+- [Debug & Special Cheats](#-debug--special-cheats)
+- [Warning & Important Notes](#-warning--important-notes)
+- [Tips for Safe Cheating](#-tips-for-safe-cheating)
+- [Useful Links](#-useful-links)
 - [License](#-license)
+
 
 
 ## Basic Console Commands
