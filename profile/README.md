@@ -18,18 +18,20 @@ This guide includes various cheat methods that work on the latest version of Coo
 ### 1. **Console Commands**
 One of the simplest ways to cheat is by using browser developer tools:
 
-1. Open the game in your browser.
-2. Right-click on the page and select **Inspect** (or press `F12`).
-3. Navigate to the **Console** tab.
-4. Enter any of the following commands:
-
+#### Add Cookies
 ```javascript
 // Add 1,000,000 cookies instantly
 Game.cookies += 1000000;
+```
 
+#### Unlock All Upgrades
+```javascript
 // Unlock all upgrades
 Game.UpgradesById.forEach(upgrade => upgrade.unlock());
+```
 
+#### Unlock All Achievements
+```javascript
 // Unlock all achievements
 Game.AchievementsById.forEach(achievement => achievement.unlock());
 ```
@@ -39,14 +41,15 @@ Game.AchievementsById.forEach(achievement => achievement.unlock());
 ### 2. **Bookmarklet Cheats**
 Create a browser bookmark that executes cheat commands instantly:
 
-1. Create a new bookmark in your browser.
-2. Paste the following code as the URL:
-
+#### Infinite Cookies
 ```javascript
 javascript:(function(){Game.cookies=999999999;})();
 ```
 
-3. Save the bookmark and click it while playing the game to activate the cheat.
+#### Instant Building Purchase
+```javascript
+javascript:(function(){Game.ObjectsById.forEach(obj => obj.amount += 100);})();
+```
 
 ### 3. **Save File Editing**
 You can directly modify your game progress by editing the save file:
@@ -56,11 +59,46 @@ You can directly modify your game progress by editing the save file:
 3. Use a text editor to modify values such as `Game.cookies` or `upgrades`.
 4. Import the modified save back into the game.
 
+#### Example Edits
+- Set cookies to a massive amount:
+  ```text
+  "Game.cookies=1e+300;"
+  ```
+- Unlock upgrades and achievements by modifying relevant sections of the save file.
+
 ### 4. **Third-Party Tools**
 Several tools and scripts are available online to automate gameplay or enable cheats:
 
 - **[CCBot](https://github.com)**: Automates clicking and upgrades.
 - **Tampermonkey Scripts**: Install custom user scripts to add cheats and quality-of-life features.
+
+### 5. **Advanced Console Hacks**
+For those who want to dive deeper into the game’s mechanics, here are some advanced console hacks:
+
+#### Maximize Golden Cookies
+```javascript
+// Spawn a golden cookie instantly
+Game.shimmerTypes.golden.spawn();
+```
+
+#### Speed Up Time
+```javascript
+// Simulate one hour of in-game time
+Game.Earn(1000000000); // Replace with desired cookie amount
+Game.ClickCookie();
+```
+
+#### Change Building Costs
+```javascript
+// Set all building prices to 1 cookie
+Game.ObjectsById.forEach(obj => obj.basePrice = 1);
+```
+
+### 6. **Mods and Extensions**
+For a more integrated experience, try using mods or extensions:
+
+- **Cookie Monster**: Adds detailed stats and performance metrics.
+- **Frozen Cookies**: Automates gameplay with advanced strategies.
 
 ## ⚠️ Important Notes
 - Cheats can ruin the intended experience of the game. Use them responsibly.
